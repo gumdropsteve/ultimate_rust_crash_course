@@ -1,3 +1,5 @@
+Notes: https://gist.github.com/gumdropsteve/13410316cf10fef465b1d58ce4758a51
+
 # Ultimate Rust Crash Course
 
 This is the companion repository for the [Ultimate Rust Crash Course] published online, presented
