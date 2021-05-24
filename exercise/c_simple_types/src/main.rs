@@ -30,7 +30,7 @@ fn main() {
     ding(series[6]);
 
 
-    let mess = ([3, 2], 3.14, [(false, -3), (true, -100)], 5, "candy");
+    let mess = ([3, 2], 3.14, [(false, -3), (true, -100)], 5, '🎉');
     // 4. Pass the `on_off` function the value `true` from the variable `mess`.  Done correctly,
     // `cargo run` will produce the additional output "Lights are on!" I'll get you started:
     //
@@ -51,6 +51,8 @@ fn main() {
     // instructions in the comments inside that function.
 
     print_distance(coords);
+
+    print_emoji(mess.4);
 }
 
 fn print_distance((x, y): (f32, f32)) {
@@ -61,5 +63,9 @@ fn print_distance((x, y): (f32, f32)) {
     println!(
         "Distance to the origin is {}", ( x.powf(2.0) + y.powf(2.0) ).sqrt()
     );
+}
+
+fn print_emoji(x: char) {
+    println!("{}", x)
 }
 
